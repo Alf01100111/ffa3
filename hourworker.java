@@ -1,11 +1,11 @@
 public class Hourworker extends Worker {
     this.id = id;
-    this.salary = salaty; // почасовая
+    this.salary = salary; 
     this.type = type;
   
   
     @Override
-    public double avermonth(int sal) {
+    public double avermonth() {
                   
-    return sal;
+    return salary;
   }
