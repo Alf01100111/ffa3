@@ -5,7 +5,7 @@ public class Hourworker extends Worker {
   
   
     @Override
-    public double avermonth() {
+    public double avermonth(int hour) {
                   
-    return salary;
+    return 20.8 * 8 * hour;
   }
