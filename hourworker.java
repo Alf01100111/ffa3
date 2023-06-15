@@ -1,7 +1,7 @@
 public class Hourworker extends Worker {
     this.id = id;
-    this.salary = salary; 
-    this.type = type;
+    this.hourSalary = hourSalary; 
+    
   
   
     @Override
