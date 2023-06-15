@@ -1,11 +1,9 @@
 public abstract class Worker {
   
   privat int id;
-  privat int salary;
-  privat char type; //f - fix; h - hourly
+  privat int hourSalary;  
   
-  public int avermonth() {
-    return salary;
+  public int avermonth() {    
   }
   
 
