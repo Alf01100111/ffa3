@@ -1,11 +1,12 @@
-pulic class Fixprice extends Worker {
-  
-  public Fixprice(int id, int salary, char type) {
-    
+pulic class Fixprice extends Worker {  
+   
     this.id = id;
-    this.salary = salaty;
-    this.type = type;
-    
+    this.hourSalary = hourSalary;
+  
+  @Override
+  public double avermonth() {  
+    return 1000
+  }
     
     
   }
